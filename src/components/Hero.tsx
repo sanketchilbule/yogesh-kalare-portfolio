@@ -6,7 +6,8 @@ const Hero = () => {
     <section id="home" className="relative bg-gray-900 text-white">
       <div className="absolute inset-0">
         <img
-          src="https://images.pexels.com/photos/586063/pexels-photo-586063.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280&fit=crop"
+          src="/banner.jpeg"
+          // src="https://images.pexels.com/photos/586063/pexels-photo-586063.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280&fit=crop"
           alt="Construction site"
           className="w-full h-full object-cover opacity-60"
         />
