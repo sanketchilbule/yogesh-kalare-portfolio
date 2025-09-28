@@ -13,7 +13,7 @@ const Video = () => {
         loop
       >
         <source
-          src="/public/Dr. project-Living room-roaming video-20220918-104842.mp4"
+          src="/Dr. project-Living room-roaming video-20220918-104842.mp4"
           type="video/mp4"
         />
         Your browser does not support the video tag.

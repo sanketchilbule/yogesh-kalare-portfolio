@@ -93,7 +93,7 @@ const Projects = () => {
     {
       title: "Architectural Drawings",
       category: "Commercial",
-      image: "/service-1.jpg",
+      image: "/service-3.jpg",
       //   image:
       //     "https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
       description:
@@ -109,7 +109,7 @@ const Projects = () => {
     {
       title: "3D Elevation & Interior Designs",
       category: "Infrastructure",
-      image: "/service-3.jpg",
+      image: "/service-5.jpg",
       description:
         "Major infrastructure project connecting downtown areas with innovative engineering.",
     },
