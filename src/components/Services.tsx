@@ -96,11 +96,11 @@ const Services = () => {
                 </p>
 
                 {/* CTA Button */}
-                <button className="text-green-800 font-semibold hover:text-green-900 transition-colors duration-200 group">
+                {/* <button className="text-green-800 font-semibold hover:text-green-900 transition-colors duration-200 group">
                   <span className="border-b-2 border-green-800 hover:border-green-900 transition-colors duration-200">
                     ENQUIRE NOW
                   </span>
-                </button>
+                </button> */}
               </div>
             </div>
           ))}

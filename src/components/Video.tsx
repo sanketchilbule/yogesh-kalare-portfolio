@@ -2,7 +2,10 @@ import React from "react";
 
 const Video = () => {
   return (
-    <div className="w-full flex justify-center">
+    <div className="w-full flex justify-center flex-col items-center">
+      <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+        Interior Design
+      </h2>
       <video
         className="rounded-lg shadow-lg"
         width="800"
