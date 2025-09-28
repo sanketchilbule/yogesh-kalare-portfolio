@@ -85,8 +85,8 @@
 // export default Projects;
 
 ("use client");
-import React, { useState } from "react";
 import { ExternalLink, X } from "lucide-react";
+import { useState } from "react";
 
 const Projects = () => {
   const projects = [

@@ -1,5 +1,4 @@
-import React from "react";
-import { Award, Users, Calendar } from "lucide-react";
+import { Award, Calendar, Users } from "lucide-react";
 
 const About = () => {
   const stats = [

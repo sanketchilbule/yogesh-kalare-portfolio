@@ -1,5 +1,4 @@
-import React from "react";
-import { Home, Building, Wrench, Hammer, Shield, Zap } from "lucide-react";
+import { Building, Home, Wrench } from "lucide-react";
 
 const Services = () => {
   const services = [

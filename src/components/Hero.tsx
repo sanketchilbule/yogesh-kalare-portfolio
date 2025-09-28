@@ -1,4 +1,3 @@
-import React from "react";
 import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
@@ -38,7 +37,7 @@ const Hero = () => {
 
             <a
               target="_blank"
-              href="https://www.linkedin.com/in/yogesh-kalare-5047011a7/?trk=opento_sprofile_topcard"
+              href="/DETAILED-PORTFOLIO.pptx"
               className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white font-semibold rounded-md hover:bg-white hover:text-gray-900 transition-all duration-200"
             >
               View My Work

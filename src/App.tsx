@@ -7,6 +7,7 @@ import Services from "./components/Services";
 // import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Video from "./components/Video";
 
 function App() {
   useEffect(() => {
@@ -47,6 +48,7 @@ function App() {
       <Services />
       <Projects />
       {/* <Testimonials /> */}
+      <Video />
       <Contact />
       <Footer />
     </div>
