@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X } from "lucide-react";
+import { useState } from "react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Services', href: '#services' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Testimonials', href: '#testimonials' },
-    { name: 'Contact', href: '#contact' },
+    { name: "Home", href: "#home" },
+    { name: "About", href: "#about" },
+    { name: "Services", href: "#services" },
+    { name: "Projects", href: "#projects" },
+    // { name: 'Testimonials', href: '#testimonials' },
+    { name: "Contact", href: "#contact" },
   ];
 
   return (
