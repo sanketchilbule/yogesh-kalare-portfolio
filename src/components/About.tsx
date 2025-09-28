@@ -54,7 +54,7 @@ const About = () => {
 
           <div className="relative">
             <img
-              src="/assets/me-portfolio.png"
+              src="/src/me-portfolio.png"
               // src="https://images.pexels.com/photos/834892/pexels-photo-834892.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
               alt="Construction team"
               className="w-full h-96 lg:h-full object-cover rounded-lg shadow-lg"
