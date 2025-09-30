@@ -19,6 +19,10 @@ const About = () => {
               Hello Everyone, My name is Yogesh Narayan Kalare
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+              Dedicated Civil Engineer with expertise in structural design and
+              modern construction technologies
+            </p>
+            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               I am a Civil Engineer with a Master's Degree in Structural
               Engineering (M.Tech). My expertise lies in structural analysis,
               design, and planning, with proficiency in software such as
@@ -26,15 +30,13 @@ const About = () => {
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               I am dedicated to developing safe and efficient structures that
-              meet technical standards and client requirements. I have
-              experience in architectural planning, 3D elevation design,
-              interior design, MEP layouts, and preparing sanction drawings for
-              residential and commercial projects. Furthermore, I am skilled in
-              conducting cost estimates, performing quantity takeoffs, and
-              creating Bar Bending Schedules (BBS), as well as managing billing
-              and site supervision. I strive for precision, quality, and client
-              satisfaction in all my work, ensuring a balance between creativity
-              and structural integrity.
+              meet technical standards and client requirements. I strive for
+              precision, quality, and client satisfaction in all my work,
+              ensuring a balance between creativity and structural integrity.
+            </p>
+            <p className="text-lg text-gray-600 mb-8 leading-relaxed font-bold">
+              Master of Technology (M.Tech) <br />
+              Structural Engineering.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
               {stats.map((stat, index) => (

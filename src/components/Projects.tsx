@@ -92,7 +92,6 @@ const Projects = () => {
   const projects = [
     {
       title: "Architectural Drawings",
-      category: "Commercial",
       image: "/service-3.jpg",
       //   image:
       //     "https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
@@ -101,14 +100,12 @@ const Projects = () => {
     },
     {
       title: "Structural Drawings",
-      category: "Residential",
       image: "/service-2.jpg",
       description:
         "Custom luxury homes with premium finishes and smart home technology integration.",
     },
     {
       title: "3D Elevation & Interior Designs",
-      category: "Infrastructure",
       image: "/service-5.jpg",
       description:
         "Major infrastructure project connecting downtown areas with innovative engineering.",
@@ -157,11 +154,6 @@ const Projects = () => {
               </div>
 
               <div className="p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-sm font-medium text-blue-800 bg-blue-100 px-3 py-1 rounded-full">
-                    {project.category}
-                  </span>
-                </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">
                   {project.title}
                 </h3>
