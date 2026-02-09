@@ -43,12 +43,12 @@ function App() {
   return (
     <div className="min-h-screen">
       <Header />
+      <Video />
       <Hero />
       <About />
       <Services />
       <Projects />
       {/* <Testimonials /> */}
-      <Video />
       <Contact />
       <Footer />
     </div>
