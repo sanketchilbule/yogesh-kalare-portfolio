@@ -1,26 +1,18 @@
-import React from "react";
+import { useState, useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Video = () => {
   return (
-    <div className="w-full flex justify-center flex-col items-center">
+    <div className="w-full flex justify-center flex-col items-center py-16 px-4">
       <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
         Interior Design
       </h2>
-      <video
-        className="rounded-lg shadow-lg"
-        width="800"
-        height="450"
-        controls
-        autoPlay={false} // change to true if you want autoplay
-        muted
-        loop
+      <Link 
+        to="/video" 
+        className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition"
       >
-        <source
-          src="/Dr. project-Living room-roaming video-20220918-104842.mp4"
-          type="video/mp4"
-        />
-        Your browser does not support the video tag.
-      </video>
+        Watch Video
+      </Link>
     </div>
   );
 };
