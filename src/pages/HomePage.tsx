@@ -39,11 +39,11 @@ const HomePage = () => {
   return (
     <div className="min-h-screen">
       <Header />
+      <Video />
       <Hero />
       <About />
       <Services />
       <Projects />
-      <Video />
       <Contact />
       <Footer />
     </div>
