@@ -7,7 +7,9 @@ const Video = () => {
   useEffect(() => {
     if (videoRef.current) {
       videoRef.current.controlsList.add("nodownload");
-      videoRef.current.addEventListener("contextmenu", (e) => e.preventDefault());
+      videoRef.current.addEventListener("contextmenu", (e) =>
+        e.preventDefault(),
+      );
     }
   }, []);
 
@@ -25,11 +27,12 @@ const Video = () => {
         controlsList="nodownload"
         onContextMenu={(e) => e.preventDefault()}
       >
-        <source src="/Hanuman Mandir - Kachurwahi.mp4" type="video/mp4" />
+        {/* <source src="/Hanuman Mandir - Kachurwahi.mp4" type="video/mp4" /> */}
+        <source src="/video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <Link 
-        to="/video" 
+      <Link
+        to="/video"
         className="mt-4 text-blue-600 hover:text-blue-800 underline"
       >
         View Full Screen
