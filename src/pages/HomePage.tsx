@@ -4,6 +4,8 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import Services from "../components/Services";
+import SitePlans from "../components/SitePlans";
+import FloorPlans from "../components/FloorPlans";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
@@ -41,7 +43,9 @@ const HomePage = () => {
       <Hero />
       <About />
       <Services />
+      <SitePlans />
       <Projects />
+      <FloorPlans />
       <Contact />
       <Footer />
     </div>
