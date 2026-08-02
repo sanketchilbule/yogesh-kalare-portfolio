@@ -91,24 +91,34 @@ import { useState } from "react";
 const Projects = () => {
   const projects = [
     {
-      title: "Architectural Drawings",
-      image: "/service-3.jpg",
-      //   image:
-      //     "https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      title: "Residential Structural Design",
+      image: "/portfolio-1.jpg",
       description:
-        "A state-of-the-art office complex featuring sustainable design and modern amenities.",
+        "Detailed structural planning and drafting for modern residential developments.",
     },
     {
-      title: "Structural Drawings",
-      image: "/service-2.jpg",
+      title: "Commercial Building Concept",
+      image: "/portfolio-2.jpg",
       description:
-        "Custom luxury homes with premium finishes and smart home technology integration.",
+        "Conceptual design work focused on functionality, durability, and visual appeal.",
     },
     {
-      title: "3D Elevation & Interior Designs",
-      image: "/service-5.jpg",
+      title: "Interior Elevation & Finishing",
+      image: "/portfolio-3.jpg",
       description:
-        "Major infrastructure project connecting downtown areas with innovative engineering.",
+        "Thoughtful interior elevation and finishing concepts for premium spaces.",
+    },
+    {
+      title: "Project Documentation",
+      image: "/portfolio-4.jpg",
+      description:
+        "Comprehensive documentation prepared for clear execution and client communication.",
+    },
+    {
+      title: "Construction Drawings",
+      image: "/portfolio-5.png",
+      description:
+        "Precise construction-ready drawings supporting smooth site implementation.",
     },
   ];
 
@@ -120,11 +130,11 @@ const Projects = () => {
         {/* Section Heading */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Our Projects
+            Portfolio Highlights
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Take a look at some of our completed projects that showcase our
-            commitment to quality, innovation, and client satisfaction.
+            A selection of recent design, documentation, and construction-focused
+            work that reflects the quality and detail behind each project.
           </p>
         </div>
 
@@ -133,21 +143,24 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="group bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
+              className="group bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300"
             >
-              <div className="relative overflow-hidden">
-                <img
-                  src={
-                    project.isPdf
-                      ? "https://cdn-icons-png.flaticon.com/512/337/337946.png"
-                      : project.image
-                  }
-                  alt={project.title}
-                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
-                />
+              <div className="relative overflow-hidden bg-gray-50">
+                <div className="aspect-[4/3] p-3 sm:p-4 flex items-center justify-center">
+                  <img
+                    src={
+                      project.isPdf
+                        ? "https://cdn-icons-png.flaticon.com/512/337/337946.png"
+                        : project.image
+                    }
+                    alt={project.title}
+                    className="w-full h-full object-contain rounded-lg group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                  />
+                </div>
                 <div
                   onClick={() => setSelectedProject(project)}
-                  className="absolute inset-0 cursor-pointer bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center"
+                  className="absolute inset-0 cursor-pointer bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center"
                 >
                   <ExternalLink className="h-8 w-8 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
