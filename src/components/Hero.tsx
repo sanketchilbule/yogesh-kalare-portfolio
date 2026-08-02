@@ -34,14 +34,6 @@ const Hero = () => {
               Resume
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-200" />
             </a>
-
-            <a
-              target="_blank"
-              href="/DETAILED-PORTFOLIO.pptx"
-              className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white font-semibold rounded-md hover:bg-white hover:text-gray-900 transition-all duration-200"
-            >
-              View My Work
-            </a>
           </div>
         </div>
       </div>
