@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Services from "./components/Services";
 import SitePlans from "./components/SitePlans";
 import FloorPlans from "./components/FloorPlans";
+import InteriorDesign from "./components/InteriorDesign";
 // import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -51,6 +52,7 @@ function App() {
       <SitePlans />
       <Projects />
       <FloorPlans />
+      <InteriorDesign />
       {/* <Testimonials /> */}
       <Contact />
       <Footer />

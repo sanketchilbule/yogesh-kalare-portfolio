@@ -6,6 +6,7 @@ import Projects from "../components/Projects";
 import Services from "../components/Services";
 import SitePlans from "../components/SitePlans";
 import FloorPlans from "../components/FloorPlans";
+import InteriorDesign from "../components/InteriorDesign";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
@@ -46,6 +47,7 @@ const HomePage = () => {
       <SitePlans />
       <Projects />
       <FloorPlans />
+      <InteriorDesign />
       <Contact />
       <Footer />
     </div>
