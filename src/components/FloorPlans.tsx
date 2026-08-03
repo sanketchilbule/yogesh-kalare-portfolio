@@ -50,17 +50,20 @@ const structuralDesignImages = [
   {
     src: "/WhatsApp Image 2026-08-02 at 8.36.59 PM.jpeg",
     title: "Beam Detail",
-    caption: "Detailed reinforcement and member coordination for construction readiness.",
+    caption:
+      "Detailed reinforcement and member coordination for construction readiness.",
   },
   {
     src: "/WhatsApp Image 2026-08-02 at 8.36.59 PM (1).jpeg",
     title: "Staircase Detail",
-    caption: "Support layout and foundation logic developed for structural stability.",
+    caption:
+      "Support layout and foundation logic developed for structural stability.",
   },
   {
     src: "/WhatsApp Image 2026-08-02 at 8.36.59 PM (2).jpeg",
-    title: "Beam Detail",
-    caption: "A cohesive structural view connecting design intent with buildability.",
+    title: "Foundation Detail",
+    caption:
+      "A cohesive structural view covering foundation logic and support clarity.",
   },
 ];
 
@@ -114,7 +117,9 @@ const FloorPlans = () => {
                 alt={floorPlanningImages[activeIndex].title}
                 className="h-[300px] w-full cursor-pointer object-cover sm:h-[400px]"
                 loading="lazy"
-                onClick={() => setSelectedImage(floorPlanningImages[activeIndex])}
+                onClick={() =>
+                  setSelectedImage(floorPlanningImages[activeIndex])
+                }
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-slate-900/10 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 flex items-end justify-between p-4 sm:p-5">

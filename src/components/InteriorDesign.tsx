@@ -6,22 +6,22 @@ const getPublicImageUrl = (path: string) => encodeURI(path);
 const interiorDesignImages = [
   {
     src: "/WhatsApp Image 2026-08-02 at 9.25.24 PM.jpeg",
-    title: "Living Area",
+    title: "Dining & Kitchen",
     caption: "Warm textures and balanced proportions for a calm interior.",
   },
   {
     src: "/WhatsApp Image 2026-08-02 at 9.25.25 PM.jpeg",
-    title: "Dining Space",
+    title: "Living Hall tv unit",
     caption: "An inviting setting with a refined sense of flow.",
   },
   {
     src: "/WhatsApp Image 2026-08-02 at 9.25.25 PM (1).jpeg",
-    title: "Kitchen Detail",
+    title: "Dining & Kitchen",
     caption: "Functionality wrapped in a clean, modern finish.",
   },
   {
     src: "/WhatsApp Image 2026-08-02 at 9.25.26 PM.jpeg",
-    title: "Bedroom Retreat",
+    title: "Living Hall tv unit",
     caption: "Soft materials and thoughtful composition for privacy.",
   },
 ];
@@ -32,7 +32,10 @@ const InteriorDesign = () => {
   >(null);
 
   return (
-    <section id="interior-design" className="border-t border-slate-200 bg-white py-8 sm:py-10">
+    <section
+      id="interior-design"
+      className="border-t border-slate-200 bg-white py-8 sm:py-10"
+    >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-4 flex items-end justify-between gap-3">
           <div>
@@ -61,13 +64,17 @@ const InteriorDesign = () => {
                 src={getPublicImageUrl(image.src)}
                 alt={image.title}
                 className={`h-full w-full cursor-pointer object-cover transition duration-500 group-hover:scale-105 ${
-                  index === 0 ? "min-h-[260px] sm:min-h-[320px]" : "min-h-[200px]"
+                  index === 0
+                    ? "min-h-[260px] sm:min-h-[320px]"
+                    : "min-h-[200px]"
                 }`}
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-slate-900/10 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-5">
-                <p className="text-sm font-semibold text-white">{image.title}</p>
+                <p className="text-sm font-semibold text-white">
+                  {image.title}
+                </p>
               </div>
             </button>
           ))}
