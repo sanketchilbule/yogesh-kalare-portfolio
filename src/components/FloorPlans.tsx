@@ -6,37 +6,37 @@ const getPublicImageUrl = (path: string) => encodeURI(path);
 const floorPlanningImages = [
   {
     src: "/WhatsApp Image 2026-08-02 at 8.30.19 PM.jpeg",
-    title: "Living Room Plan",
+    title: "Farmhouse Plan",
     caption: "Open-plan flow with relaxed proportions.",
   },
   {
     src: "/WhatsApp Image 2026-08-02 at 8.30.19 PM (1).jpeg",
-    title: "Kitchen Layout",
+    title: "Ground Floor",
     caption: "Functional circulation and storage clarity.",
   },
   {
     src: "/WhatsApp Image 2026-08-02 at 8.30.20 PM.jpeg",
-    title: "Bedroom Zone",
+    title: "First Floor",
     caption: "A calm and private retreat concept.",
   },
   {
     src: "/WhatsApp Image 2026-08-02 at 8.30.20 PM (1).jpeg",
-    title: "Utility Flow",
+    title: "Roof Floor",
     caption: "Practical planning with clean service lines.",
   },
   {
     src: "/WhatsApp Image 2026-08-02 at 8.30.20 PM (2).jpeg",
-    title: "Dining Detail",
+    title: "Bagde's Floor plan",
     caption: "Dining space with a strong visual anchor.",
   },
   {
     src: "/WhatsApp Image 2026-08-02 at 8.30.21 PM.jpeg",
-    title: "Passage Layout",
+    title: "Floor Plan",
     caption: "Fluid movement between key spaces.",
   },
   {
     src: "/WhatsApp Image 2026-08-02 at 8.30.21 PM (1).jpeg",
-    title: "Full Floor Study",
+    title: "Floor Plan",
     caption: "A complete planning overview in one frame.",
   },
 ];
@@ -44,22 +44,22 @@ const floorPlanningImages = [
 const structuralDesignImages = [
   {
     src: "/WhatsApp Image 2026-08-02 at 8.36.58 PM.jpeg",
-    title: "Structural Framing",
+    title: "Footing Detail",
     caption: "Load-bearing elements coordinated with clarity and precision.",
   },
   {
     src: "/WhatsApp Image 2026-08-02 at 8.36.59 PM.jpeg",
-    title: "Beam & Column Detailing",
+    title: "Beam Detail",
     caption: "Detailed reinforcement and member coordination for construction readiness.",
   },
   {
     src: "/WhatsApp Image 2026-08-02 at 8.36.59 PM (1).jpeg",
-    title: "Foundation Planning",
+    title: "Staircase Detail",
     caption: "Support layout and foundation logic developed for structural stability.",
   },
   {
     src: "/WhatsApp Image 2026-08-02 at 8.36.59 PM (2).jpeg",
-    title: "Integrated Structural Study",
+    title: "Beam Detail",
     caption: "A cohesive structural view connecting design intent with buildability.",
   },
 ];
