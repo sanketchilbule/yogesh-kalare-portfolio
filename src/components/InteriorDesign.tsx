@@ -5,23 +5,23 @@ const getPublicImageUrl = (path: string) => encodeURI(path);
 
 const interiorDesignImages = [
   {
-    src: "/WhatsApp Image 2026-08-02 at 9.25.24 PM.jpeg",
-    title: "Dining & Kitchen",
+    src: "/Living Hall.jpeg",
+    title: "Living Hall",
     caption: "Warm textures and balanced proportions for a calm interior.",
   },
   {
-    src: "/WhatsApp Image 2026-08-02 at 9.25.25 PM.jpeg",
-    title: "Living Hall tv unit",
-    caption: "An inviting setting with a refined sense of flow.",
-  },
-  {
-    src: "/WhatsApp Image 2026-08-02 at 9.25.25 PM (1).jpeg",
-    title: "Dining & Kitchen",
+    src: "/Kitchen.jpeg",
+    title: "Kitchen Design",
     caption: "Functionality wrapped in a clean, modern finish.",
   },
   {
-    src: "/WhatsApp Image 2026-08-02 at 9.25.26 PM.jpeg",
-    title: "Living Hall tv unit",
+    src: "/Living Hall TV Unit.jpeg",
+    title: "Living Hall TV Unit",
+    caption: "An inviting setting with a refined sense of flow.",
+  },
+  {
+    src: "/Bedroom.jpeg",
+    title: "Bedroom Design",
     caption: "Soft materials and thoughtful composition for privacy.",
   },
 ];
